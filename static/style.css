@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin-bottom: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+.search-form {
+    margin-top: 15px;
+    display: flex;
+}
+
+.search-form input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-form button {
+    padding: 8px 15px;
+    background: #ff9800;
+    border: none;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+main {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 500px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+    font-size: 14px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #764ba2;
+}
+
+.entry-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: box-shadow 0.3s;
+}
+
+.entry-card:hover {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.entry-card h3 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.entry-date {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.entry-actions {
+    margin-top: 10px;
+}
+
+.entry-actions a, .entry-actions button {
+    margin-right: 10px;
+}
+
+.btn-read, .btn-edit, .btn-back, .btn-save {
+    display: inline-block;
+    padding: 5px 12px;
+    background: #667eea;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-delete {
+    padding: 5px 12px;
+    background: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-edit {
+    background: #ff9800;
+}
+
+.btn-back {
+    background: #666;
+}
+
+.btn-save {
+    background: #4CAF50;
+}
+
+.btn-cancel {
+    display: inline-block;
+    padding: 5px 12px;
+    background: #999;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.filter-links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.filter-links a {
+    color: #667eea;
+    text-decoration: none;
+}
+
+.entry-detail h2 {
+    color: #764ba2;
+}
+
+.entry-content {
+    margin: 20px 0;
+    line-height: 1.6;
+}
